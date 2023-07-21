@@ -10,7 +10,12 @@
   <!-- End Google Tag Manager -->
   
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <script>
+    window.dataLayer = window.dataLayer || []
+  </script>
+
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JV1Q63MDYE"></script>
@@ -28,13 +33,9 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   
-  <a href="https://indigames.net/ja/">インディリンク</>
-  <script>
-  window.dataLayer = window.dataLayer || []
-  dataLayer.push({
-     'click_type': 'クリックタイプA',
   
-  });
-</script> 
+  <a href="https://indigames.net/ja/">インディリンク</a>
+  <a href=""　onclick="dataLayer.push({'click_type': 'クリックタイプA'});">datalayer発火</a>
+
 </body>
 </html>
